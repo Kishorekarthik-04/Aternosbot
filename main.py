@@ -10,7 +10,6 @@ import requests
 os.system('cls')
 
 # Settings
-ps1 = '\033[96m🛆\033[0m'
 creds = json.load(open('creds.json'))
 config = json.load(open('data.json'))
 formater = logging.Formatter(ps1 + '\033[91m Error at %(asctime)s: %(message)s',
